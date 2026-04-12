@@ -1,24 +1,23 @@
-# 📊 Sales Dashboard (GST + HSN Analysis)
+# 📊 Sales Dashboard (Streamlit)
 
-This project is a **Streamlit-based Sales Dashboard** that automatically processes raw Excel data and generates:
-
-- 📈 Sales analysis
-- 🧾 GST (HSN-wise reports)
-- 🏢 B2B & B2C summaries
-- 📊 Graphs (Top items, Best days, Payment mode)
-- 📥 Exportable Excel reports
+## 🚀 Overview
+This is a Sales Dashboard built using Python, Pandas, and Streamlit.  
+It allows users to upload sales data and generate automated reports, visualizations, and downloadable files.
 
 ---
 
-## 🚀 Features
+## ✨ Features
+- 📂 Upload CSV / Excel file
+- 📊 Data analysis using Pandas
+- 📈 Charts (Top items, Best days, Payment mode)
+- 🧾 Generate reports:
+  - B2B Reports
+  - B2C Reports
+  - HSN Summary
+- 📦 Download:
+  - Excel reports (ZIP)
+  - Charts (PNG in ZIP)
 
-- Auto-detects header from messy Excel files
-- Cleans raw data (ignores metadata rows)
-- Generates:
-  - HSN summary (5%, 40%, Non-taxable)
-  - B2B and B2C reports
-- Visual dashboards using Streamlit
-- Export reports to Excel
 
 ---
 
@@ -44,3 +43,5 @@ project/
 └── README.md
 │
 ├── requirements.txt
+
+Test update
