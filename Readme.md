@@ -1,7 +1,7 @@
 # 📊 Sales Dashboard (Streamlit)
 
 ## 🚀 Overview
-This is a Sales Dashboard built using Python, Pandas, and Streamlit.  
+This is a Sales Dashboard built using Python, Pandas, Sys, and Streamlit.  
 It allows users to upload sales data and generate automated reports, visualizations, and downloadable files.
 
 ---
@@ -24,17 +24,6 @@ It allows users to upload sales data and generate automated reports, visualizati
 ## 📁 Project Structure
 project/
 │
-│
-├──assets/
-│  └── Dashboard Preview
-│
-├── graphical presentation/
-│ └── generated graphs 
-│
-│
-├── output/
-│ └── exported reports
-│
 ├── raw date/
 │ └── excel_file.xlsx
 │  
@@ -45,3 +34,8 @@ project/
 ├── requirements.txt
 
 Test update
+
+## Set Up a Virtual Environment
+
+python -m venv venv
+.\venv\Scripts\Activate.ps1
