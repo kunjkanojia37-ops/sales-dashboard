@@ -2,13 +2,6 @@ import sys
 import streamlit as st
 from streamlit.web import cli as stcli
 
-if __name__ == '__main__':
-    # Check if we are already running inside an active Streamlit server instance
-    try:
-        from streamlit.runtime import exists as st_exists
-        is_running_in_streamlit = st_exists()
-    except ImportError:
-        is_running_in_streamlit = False
 
 
 # =========================================================
