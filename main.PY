@@ -10,10 +10,6 @@ if __name__ == '__main__':
     except ImportError:
         is_running_in_streamlit = False
 
-    # If the server isn't running yet, and the user typed 'python main.py', start it!
-    if not is_running_in_streamlit and not sys.argv[0].lower().endswith('streamlit'):
-        sys.argv = ["streamlit", "run", sys.argv[0]]
-        sys.exit(stcli.main())
 
 # =========================================================
 # THE REST OF YOUR CODE CONTINUES EXACTLY THE SAME...
