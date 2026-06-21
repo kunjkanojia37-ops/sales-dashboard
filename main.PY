@@ -31,7 +31,7 @@ import zipfile
 # STREAMLIT UI SETUP
 # ===========================
 
-st.set_page_config(page_title="Sales Dashboard", layout="wide")
+
 st.title("Welcome To Sales Dashboard")
 st.write("Note - Only upload item report item wise .......... ! ")
 
